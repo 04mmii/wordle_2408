@@ -1,16 +1,25 @@
 header {
   padding: 10px;
-  display: flex;
   width: 98vw;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 5px;
 }
 
 .header-column {
   display: flex;
-  justify-content: center;
+  box-sizing: border-box;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
+  box-sizing: border-box;
+}
+
+.header-title {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  align-items: center;
 }
 
 .header-icon {
@@ -22,8 +31,12 @@ header {
   cursor: pointer;
 }
 
-.header-title {
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
+.header-icon2 {
+  width: 30px;
+  display: flex;
+  cursor: pointer;
+  right: 0;
+  padding-left: 10px;
+  justify-content: flex-end;
+  gap: 5px;
 }

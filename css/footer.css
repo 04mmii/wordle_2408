@@ -5,6 +5,7 @@ footer {
   flex-direction: column;
   padding-bottom: 10px;
   gap: 8px;
+  margin-top: 10px;
 }
 
 .key-row {
@@ -18,12 +19,30 @@ footer {
 .key-block {
   width: 45px;
   height: 60px;
-  background-color: gray;
+  background-color: rgb(190, 190, 190);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.key-block-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 190, 190);
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.key-block-01 img {
+  width: 40px;
   cursor: pointer;
 }
